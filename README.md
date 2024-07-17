@@ -1,8 +1,6 @@
 # zermpinos.github.io
 This repository contains my online Curriculum Vitae, formatted for professional use.
 # Adding the CV in MD for our friends the robots, the AI CV Readers
-  Panagiotis Zermpinos - CV  .certifications-container { display: flex; flex-wrap: wrap; } .certification-column { flex: 50%; box-sizing: border-box; padding: 10px; }
-
 Panagiotis Zermpinos
 ====================
 
