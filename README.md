@@ -20,7 +20,7 @@ Experience
 *   **Field Service Engineer | CRM Architect** - biomedix intelligence - safe blood (Sep 2023 - Present)
     *   Performed, mostly as a first responder, L1 & L2 support for Biomedical and Intelligence systems, diagnosing and resolving technical issues.
     *   Configured CRM workflows and automations to enhance efficiency and communication within the organization. Also designed user-friendly interfaces and reports within the CRM system.
-    *   Presented technical solutions and proposals to clients, addressing their specific needs.
+    *   Presented technical solutions and proposals to clients, addressing their specific needs. Also developed and uploaded newsletters to the company website, sharing updates, insights, and valuable content.
     *   Created visually appealing presentations, proposals, and marketing materials to effectively communicate ideas. Also leveraged graphic design software (GIMP, Photoshop) to enhance communication and brand image.
 
 *   **Mechanical Engineer | External Partner** - Hellenic Electricity Distribution Network Operator SA (HEDNO) (Dec 2022 - Feb 2023)
