@@ -4,12 +4,12 @@ This repository contains my online Curriculum Vitae, formatted for professional 
 Panagiotis Zermpinos
 ====================
 
-*   [About Me](#About Me)
+*   [About Me](#About-Me)
 *   [Experience](#experience)
 *   [Education](#education)
 *   [Skills](#skills)
 
-About Me
+About-Me
 --------
 
 Motivated engineer with a background in automotive engineering & energy, actively expanding my knowledge in cybersecurity and digital forensics. Optimizing and maintaining systems (L1 & L2) @ bioMDx Intelligence & SafeBlood. Skilled in troubleshooting, data analysis, and CRM configuration.
