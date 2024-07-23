@@ -1,6 +1,6 @@
 # zermpinos.github.io
-This repository contains my online Curriculum Vitae, formatted for professional use.
-Disclaimer: For the latest of the latest update please check my LinkedIn page!
+* This repository contains my online Curriculum Vitae, formatted for professional use.
+* Disclaimer: For the latest of the latest update please check my LinkedIn page!
 
 # Adding the CV in MD for our friends the robots, the AI CV Readers
 Panagiotis Zermpinos
