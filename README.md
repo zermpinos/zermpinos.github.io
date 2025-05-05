@@ -1,16 +1,17 @@
 # Panagiotis Zermpinos - CV
 *This repository contains my online Curriculum Vitae, formatted for professional use.*
-*Disclaimer: For the latest updates, please check my LinkedIn page!*
+*Disclaimer: For the latest updates, please check with my LinkedIn page!*
 
-## About Me
+## About Panagiotis Zermpinos
 Motivated engineer with a background in automotive engineering & energy, actively expanding my knowledge in cybersecurity and digital forensics.
-Optimizing and maintaining systems (L1 & L2) @ bioMDx Intelligence & SafeBlood.
+Optimizing and maintaining systems (L1 & L2) @ bioMDx IntelligenceX & SafeBlood.
 Skilled in troubleshooting, automating the boring stuff, and CRM configuration.
 
 ## Experience
 
 ### Field Service Engineer | CRM Architect
 **biomedix intelligence - safe blood** (Sep 2023 - Present)
+* Responsible for Anti - Bribery Policy
 * Critical in technical support operations for biomedical and intelligence systems, implementing efficient L1 & L2 support protocols to ensure optimal system performance and user satisfaction.
 * Architected and implemented CRM workflows and automation systems, resulting in enhanced organizational efficiency and streamlined communication processes.
 * Developed and delivered comprehensive technical solutions and proposals to stakeholders, while managing content strategy for company communications.
