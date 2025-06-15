@@ -1,9 +1,7 @@
-## About Panagiotis Zermpinos
+## About Me
 Motivated engineer with a background in automotive engineering & energy, actively expanding my knowledge in cybersecurity and digital forensics.
 Optimizing and maintaining systems (L1 & L2) @ bioMDx IntelligenceX & SafeBlood.
-Skilled in troubleshooting, automating the boring stuff, and CRM configuration.
-
-For the latest version please check with my LinkedIn profile.
+Skilled in troubleshooting, process automation, and CRM configuration.
 
 ## Experience
 
@@ -30,28 +28,30 @@ For the latest version please check with my LinkedIn profile.
 * **Integrated Master - Mechanical Engineering** - University of West Attica (2022)
 
 ## Professional Skills
-* CRM Systems & Workflows
-* Python Programming
-* Technical Troubleshooting
+* Artificial Intelligence
 * Biomedical Systems
+* CRM Systems & Workflows
 * Customer Relationship Management
-* Process Automation
-* Digital Forensics
 * Cybersecurity
 * Data Analysis
-* Technical Documentation
+* Digital Forensics
+* Machine Learning
+* Process Automation
 * Project Management
+* Python Programming
 * Quality Assurance
+* Technical Documentation
+* Technical Troubleshooting
 
 ## Soft Skills
-* Problem-Solving
-* Technical Communication
-* Team Leadership
-* Project Planning
-* Client Management
-* Time Management
 * Adaptability
+* Client Management
 * Critical Thinking
+* Problem-Solving
+* Project Planning
+* Team Leadership
+* Technical Communication
+* Time Management
 
 ---
 Panagiotis Zermpinos © 2025
