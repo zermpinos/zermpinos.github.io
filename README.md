@@ -1,3 +1,5 @@
+<div style="text-align: justify; text-justify: inter-word;">
+
 # Panagiotis Zermpinos - CV
 *This repository contains my online Curriculum Vitae, formatted for professional use.*
 *Disclaimer: For the latest updates, please check with my LinkedIn page!*
@@ -99,3 +101,5 @@ Skilled in troubleshooting, automating the boring stuff, and CRM configuration.
 
 ---
 Panagiotis Zermpinos © 2025
+
+</div>

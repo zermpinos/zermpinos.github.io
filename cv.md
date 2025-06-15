@@ -1,3 +1,5 @@
+<div style="text-align: justify; text-justify: inter-word;">
+
 ## About Me
 Motivated engineer with a background in automotive engineering & energy, actively expanding my knowledge in cybersecurity and digital forensics.
 Optimizing and maintaining systems (L1 & L2) @ bioMDx IntelligenceX & SafeBlood.
@@ -55,3 +57,4 @@ Skilled in troubleshooting, process automation, and CRM configuration.
 
 ---
 Panagiotis Zermpinos © 2025
+</div>
