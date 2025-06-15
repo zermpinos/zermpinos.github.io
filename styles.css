@@ -22,7 +22,7 @@ body {
 header {
     background: #1a1f36;
     color: #fff;
-    width: 10%;
+    width: 200px;
     min-height: 100vh;
     position: fixed;
     top: 0;
@@ -71,37 +71,37 @@ header a {
     border-radius: 4px;
 }
 
-header a:hover {
+header a:hover,
+header a:focus {
     color: #4299e1;
     background: rgba(255, 255, 255, 0.1);
-}
-
-/* Left sidebar */
-.left-sidebar {
-    background: #1a365d;
-    color: #fff;
-    width: 10%;
-    padding: 20px;
-    box-sizing: border-box;
+    outline: 2px solid #4299e1;
+    outline-offset: 2px;
 }
 
 /* Main content */
 .main {
-    width: 80%;
-    margin: 0 10%;
+    width: calc(100% - 400px);
+    margin: 0 200px;
     padding: 40px;
     box-sizing: border-box;
     background: #fff;
     min-height: 100vh;
+    text-align: justify;
 }
 
 /* Right sidebar */
 .right-sidebar {
     background: #1a1f36;
     color: #fff;
-    width: 10%;
+    width: 200px;
     padding: 20px;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    overflow-y: auto;
 }
 
 .section {
@@ -119,8 +119,8 @@ header a:hover {
 }
 
 .section h2 {
-    color: #1a1f36;
-    border-bottom: 2px solid #4299e1;
+    color: #0f172a;
+    border-bottom: 2px solid #3182ce;
     padding-bottom: 10px;
     margin-bottom: 25px;
     font-size: 1.5em;
@@ -128,7 +128,7 @@ header a:hover {
 
 .section p, .section ul {
     line-height: 1.6;
-    color: #2d3748;
+    color: #1e293b;
 }
 
 .section ul {
@@ -142,8 +142,8 @@ header a:hover {
 }
 
 #profile {
-    background: #f7fafc;
-    border-left: 4px solid #1a1f36;
+    background: #f0f9ff;
+    border-left: 4px solid #0c4a6e;
 }
 
 #experience ul li {
@@ -151,14 +151,14 @@ header a:hover {
 }
 
 #experience ul li strong {
-    color: #1a1f36;
+    color: #0f172a;
     display: block;
     margin-bottom: 5px;
     font-weight: 600;
 }
 
 #experience ul li > strong + span {
-    color: #1a1f36;
+    color: #0f172a;
     font-weight: 600;
 }
 
@@ -175,7 +175,7 @@ header a:hover {
     padding: 10px 20px;
     border-radius: 6px;
     font-size: 14px;
-    color: #1a1f36;
+    color: #0f172a;
     border: 1px solid #bee3f8;
     transition: all 0.3s ease;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -230,12 +230,12 @@ header a:hover {
 footer {
     background: #1a1f36;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 10%;
+    width: 200px;
     z-index: 10;
     box-sizing: border-box;
 }
@@ -252,6 +252,62 @@ footer p {
     font-size: 12px;
 }
 
+/* Responsive Design */
+@media (max-width: 1024px) {
+    header, .right-sidebar, footer {
+        width: 180px;
+    }
+    .right-sidebar {
+        width: 180px;
+    }
+    .main {
+        width: calc(100% - 560px);
+        margin: 0 180px 0 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    header, .right-sidebar, footer {
+        position: static;
+        width: 100%;
+        min-height: auto;
+        height: auto;
+    }
+    .main {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    header .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header h1 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    header ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    header li {
+        width: auto;
+    }
+    .download-section {
+        margin-top: 20px;
+        width: 100%;
+        order: 3;
+    }
+    .certifications-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 .social-links {
     display: flex;
     flex-direction: column;
@@ -265,8 +321,11 @@ footer p {
     transition: color 0.3s ease;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+.social-links a:focus {
     color: #4299e1;
+    outline: 2px solid #4299e1;
+    outline-offset: 2px;
 }
 
 .download-section {
@@ -289,10 +348,13 @@ footer p {
     border: 1px solid #3182ce;
 }
 
-.download-btn:hover {
+.download-btn:hover,
+.download-btn:focus {
     background: #3182ce;
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    outline: 2px solid #fff;
+    outline-offset: 2px;
 }
 
 .download-icon {
@@ -300,41 +362,102 @@ footer p {
 }
 
 @media (max-width: 1400px) {
-    .left-sidebar, .right-sidebar {
+    .right-sidebar {
         width: 12%;
         padding: 15px;
     }
     
     .main {
-        width: 76%;
+        width: calc(100% - 400px);
+        margin: 0 200px;
         padding: 30px;
     }
 }
 
 @media (max-width: 1200px) {
+    .right-sidebar {
+        width: 180px;
+    }
+    
+    .main {
+        width: calc(100% - 560px);
+        margin: 0 180px 0 200px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header, .right-sidebar, footer {
+        width: 180px;
+    }
+    .right-sidebar {
+        width: 180px;
+    }
+    .main {
+        width: calc(100% - 560px);
+        margin: 0 180px 0 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .right-sidebar {
+        width: 160px;
+        padding: 10px;
+    }
+    
+    .main {
+        width: calc(100% - 520px);
+        margin: 0 160px 0 200px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
     body {
         flex-direction: column;
     }
-
-    .left-sidebar, .right-sidebar {
+    
+    header, .right-sidebar, footer {
+        position: static;
         width: 100%;
-        padding: 10px;
+        min-height: auto;
+        height: auto;
     }
-
+    
     .main {
         width: 100%;
         margin: 0;
         padding: 20px;
     }
-
-    .right-sidebar {
-        display: none;
+    
+    header .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px;
     }
-
+    
+    header h1 {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    
+    header ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    header li {
+        width: auto;
+    }
+    
     .section {
         padding: 15px;
     }
-
+    
     #skills ul, #soft-skills ul {
         gap: 8px;
     }
@@ -391,89 +514,52 @@ footer p {
 }
 
 @media (max-width: 992px) {
-    .left-sidebar, .right-sidebar {
-        width: 8%;
+    .right-sidebar {
+        width: 160px;
         padding: 10px;
     }
     
     .main {
-        width: 84%;
+        width: calc(100% - 520px);
+        margin: 0 160px 0 200px;
         padding: 20px;
     }
 }
 
 @media (max-width: 768px) {
-    .left-sidebar, .right-sidebar {
-        width: 100%;
-        padding: 10px;
-        min-width: unset;
-    }
-
-    .main {
-        width: 100%;
-        padding: 20px;
-    }
-
     .right-sidebar {
         display: none;
     }
-
-    .section {
-        padding: 15px;
-    }
-
-    #skills ul, #soft-skills ul {
-        gap: 8px;
-    }
-
-    #skills li, #soft-skills li {
-        padding: 8px 15px;
-        font-size: 13px;
-    }
-
-    header {
-        width: 100%;
-        min-height: auto;
-        position: relative;
-    }
-
-    header .container {
-        padding: 10px;
-    }
-
-    header ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    header li {
-        width: auto;
-    }
-
-    footer {
-        position: relative;
-        width: 100%;
-        text-align: center;
-    }
-
-    footer .container {
-        align-items: center;
-    }
-
-    .social-links {
-        flex-direction: row;
-        justify-content: center;
-    }
-
+    
     .download-section {
+        margin-top: 20px;
         padding: 10px 0;
+        order: 3;
+        width: 100%;
     }
     
     .download-btn {
         padding: 8px 16px;
         font-size: 12px;
+    }
+    
+    .certifications-container {
+        grid-template-columns: 1fr;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .section h2 {
+        font-size: 1.3em;
+        margin-bottom: 15px;
     }
 }
 
