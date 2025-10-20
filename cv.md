@@ -10,7 +10,7 @@ Skilled in troubleshooting, process automation, and CRM configuration.
 ### Application and Technical Support @ biomedix intelligenX - safe blood (Sep 2023 - Present)
 * Responsible for Anti - Bribery Policy.
 * Critical in technical support operations for biomedical and intelligence systems, implementing efficient L1 & L2 support protocols to ensure optimal system performance and user satisfaction.
-* Installed and actively maintaining more than 50 criminal photography systems, with an open-to-close support SLA compliance rate of 100%.
+* Installed and actively maintaining over 50 criminal photography systems, achieving a 100% ticket closure rate in full compliance with SLA requirements.
 * Architected and implemented CRM workflows and automation systems, resulting in enhanced organizational efficiency and streamlined communication processes.
 * Developed and delivered comprehensive technical solutions and proposals to stakeholders, while managing content strategy for company communications.
 * Drafted and managed MNDAs and non‑competitive agreements for 35 partners, coordinated procurement efforts (RFI's, RFP's), as well as maintenance and service contracts.
